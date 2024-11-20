@@ -14,7 +14,7 @@ The client required a simple Java class which implements the Queue Data structur
 
 Create Unit test cases for the code in this repository. The tests should have 100% instruction & branch coverage for both constructors, enqueue, dequeue, peek, length, isEmpty, removeAll methods.
 
-**Upload Results** Copy the code coverage report and attach the same with your submission.
+**Upload Results** Upload your test cases and copy the code coverage report to the repository.
 
 ### Task 2: Create Test case that _fails_ revealing the underlying fault
 
@@ -29,7 +29,7 @@ will state that one of your test case is failing
 
 Hint : Your test case would expect a NoSuchElementException, but that is not thrown hence this test case will make your mvn test fail, and this the expected behaviour.
 
-**Upload Results** : Upload your code and test cases to the repository.
+**Upload Results** : Upload your code, test cases and copy the code coverage report to the repository.
 
 #### Current code coverage:
 
@@ -42,14 +42,6 @@ Hint : Your test case would expect a NoSuchElementException, but that is not thr
 -   Annotations of JUnit are to be used.
 -   Test cases must be complete & should check for expected outcome. (except for the "toString" method). An example would be, after the dequeue method is called on the queue, ensure that the length of the queue decreases by one. Or that when "peek" method is called, the returned value is the expected element.
 -   You should have atleast 1 failing test which reveals the bug in the enqueue method disclosed earlier.
-
-## Required Artifacts:
-
-Please submit the following:
-
-1. Github Repository link.
-2. Screenshot of instruction coverage after Task 1.
-3. Screenshot of instruction coverage after Task 2.
 
 ## Instructions to run
 
